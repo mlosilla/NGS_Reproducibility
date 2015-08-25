@@ -1,0 +1,21 @@
+---
+title: "Mariam talk"
+author: "Mauricio Losilla"
+date: "08/25/2015"
+output: html_document
+---
+```{r Set Seed, eval=TRUE, echo=TRUE}
+#runif(1, 0, 10^8)
+set.seed(seed = 86534081)
+```
+
+```{r install packages, eval=FALSE, echo=TRUE}
+#install.packages("devtools")
+library("devtools")
+#install.packages("ggplot2")
+library("ggplot2")
+#install.packages("RCurl")
+library("RCurl")
+#install.packages("vegan")
+library("vegan")
+```
